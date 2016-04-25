@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>big.txt</file>
+        <file>rus.txt</file>
+    </qresource>
+</RCC>
