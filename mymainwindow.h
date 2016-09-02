@@ -13,6 +13,7 @@ class MyMainWindow : public QMainWindow
     Q_OBJECT
 
 public:
+
     explicit MyMainWindow(QWidget *parent = 0);
     ~MyMainWindow();
 
@@ -34,6 +35,7 @@ private slots:
     void on_actionRedo_Ctrl_Y_triggered();
 
 private:
+
     QString buffer;
     Ui::MyMainWindow *ui;
     CompleteTextEdit *textEdit;
